@@ -23,7 +23,8 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo500x161.png" alt="">
                     </div>
                     <?php
-                        include 'header-menu.php';
+                        //loads main menu -- edited within WP-ADMIN
+                        require_once(plugin_dir_path(__FILE__) .'/assets/header-menu.php');
                     ?>
                 </div>
             </nav>

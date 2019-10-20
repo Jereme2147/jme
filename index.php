@@ -44,77 +44,9 @@
                         <h2>-SERVICES-</h2>
                     </div>
                    <!-- *****will be dynamically loaded  -->
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/Guardian_Generator_Application3.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>Generators</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <!-- ^^^^^dynamically loaded  only this one card matters -->
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/Fire-Alarm-Installation.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>Security</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/Residential-electrical2.png" alt="service">
-                        <div class="service-heading">
-                            <h2>Ressidential Electric</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/commercial-electric.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>Commercial Electric</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/cctv.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>CCTV</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/audio-video.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>Audio Video</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="services-card services-card-not-selected">
-                            <img src="<?php echo get_template_directory_uri();?>/images/services/sonos.jpg" alt="service">
-                        <div class="service-heading">
-                            <h2>Sonos</h2>
-                        </div>
-                        <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
-                            <a href="www.jeremedaniels.com" target="_blank">READ MORE</a>
-                        </div>
-                    </div>
+                    <?php 
+                        require_once(plugin_dir_path(__FILE__) . '/assets/services.php');
+                    ?>
                 </section>
                 <section>
                     <div class="landing-vendors-section">
