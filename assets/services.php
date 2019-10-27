@@ -4,10 +4,12 @@
     $pages = get_pages();
     foreach ($pages as $page) {
         $parent_title = get_the_title( $page->post_parent );
+        $image = get_the_post_thumbnail_url($page->ID);
         if($parent_title == 'Services'){
              ?>
             <div class="services-card services-card-not-selected">
-                <img src="<?php echo get_template_directory_uri();?>/images/services/Guardian_Generator_Application3.jpg" alt="service">
+                <!-- <img src="<?php //echo get_template_directory_uri();?>/images/services/Guardian_Generator_Application3.jpg" alt="service"> -->
+                <img src="<?php echo $image ?>" alt="">
                 <div class="service-heading">
                     <h2><?php echo $page->post_title?></h2>
                 </div>
@@ -20,9 +22,6 @@
 
         }
        
-        // echo $page->post_title . '<br>';
-        // $parent_title = get_the_title( $page->post_parent );
-        // echo $parent_title;
     }
 ?>
 

@@ -1,5 +1,4 @@
 <?php get_header() ?>
-<main>
                 <div id="sub-menu">
                     <div><a href="#"><h2>Generator Service</h2></a></div>
                     <div><a href="#"><h2>Alarms & Security</h2></a></div>
@@ -54,19 +53,11 @@
                             <h2>Some of our vendors</h2>
                         </div>
                         <div class="landing-vendors-logos">
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-GENERAC300x180jpg.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-cutler-hammer300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-hikvision300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-honeywell300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-juno300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-nest300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-resideo300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-samsung300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-siemens300x180.jpg" alt="logo"></a>
-                            <a href="#" class="vendor-scroll"><img src="<?php echo get_template_directory_uri();?>/images/vendors/s-elkProducts300x180.jpg" alt="logo"></a>
+                        <?php 
+                            require_once(plugin_dir_path(__FILE__) . '/assets/vendors.php');
+                        ?>
                         </div>
                     </div>
                 </section>
                 
-            </main>
            <?php get_footer(); ?>

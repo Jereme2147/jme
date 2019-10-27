@@ -15,7 +15,7 @@ function burger(id) {
         menu.style.pointerEvents = 'none';
         //new
         // body.style.backgroundImage = 'url("../images/curcuit-board.jpg")';
-        body.style.backgroundImage = `url(${templateUrl}/images/curcuit-board.jpg)`;
+        // body.style.backgroundImage = `url(${templateUrl}/images/curcuit-board.jpg)`;
         logo.style.opacity = '1';
         // body.style.backgroundColor = 'white';
     } else {
