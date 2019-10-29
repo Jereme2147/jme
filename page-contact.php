@@ -1,36 +1,73 @@
+
+
 <?php 
     get_header();
-    require_once(plugin_dir_path(__FILE__) . '/assets/page-title-header.php');
 ?>
-
+<div class="banner-image">
+    <img class="large-photo"src="<?php echo get_template_directory_uri();?>/images/headers/brmc-1900x1069.jpg" alt="banner with lights">
+    <img class="small-photo"src="<?php echo get_template_directory_uri();?>/images/headers/brmc-600x786.jpg" alt="banner with lights">
+</div>
+<?php 
+    // require_once(plugin_dir_path(__FILE__) . '/assets/page-title-header.php');
+?>
+<div class="banner-text">
+    <h1>We'd love to hear from you!</h1>
+    <p>Connect with us below</p>
+</div>
 <?php 
      while(have_posts()) {
         the_post();
         ?> 
-        <section>
+        <!-- <section> -->
             <div class="contact-container">
-                <div class="contact-social">
-                <?php
-                    require_once(plugin_dir_path(__FILE__) . '/assets/social-anchors.php');
-                ?>
-                    
-                </div>
-                <div class="contact-form">
-                    <h2>Quick Message Form</h2>
-                     <?php
-                        the_content();
-                    ?>
-                </div>
-                <div class="contact-information">
-                    <h2>Jared Munday Electric, inc.</h2>
-                    <h2>828-355-9024</h2>
-                    <h3>PO Box 2077</h3>
-                    <h3>Boone, NC 28607</h3>
-                    <a href="#"><h3>jaredmundayelectric@gmail.com</h3></a>
-                </div>
+                <section>
+                    <div class="contact-social">
+                        <div class="social-icons">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.svg" alt=""> </a>
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.svg" alt=""></a>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.svg" alt=""></a>
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-form">
+                         <?php
+                            the_content();
+                        ?>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-information">
+                        <div>
+                            <h2>Jared Munday Electric, inc.</h2>
+                            <h2>828-355-9024</h2>
+                            <div class="contact-address-phone">
+                                <div class="contact-address-phone-address">
+                                    
+                                    <h3>PO Box 2077</h3>
+                                    <h3>Boone, NC 28607</h3>
+                                </div>
+                                <div class="contact-address-phone-icon">
+                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt=""></a>
+                                </div>
+
+                            </div>
+                            
+                            <a href="#"><h3>jaredmundayelectric@gmail.com</h3></a>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="map-div">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/pin.jpg" alt="">
+                    </div>
+                </section>
             </div>
        
-        </section>
+        <!-- </section> -->
         <?php
      }
 ?>
