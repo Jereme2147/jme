@@ -62,6 +62,7 @@
                 </section>
                 <section>
                     <div class="map-div">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/best-of-best.jpg" alt="">    
                         <img src="<?php echo get_template_directory_uri(); ?>/images/pin.jpg" alt="">
                     </div>
                 </section>

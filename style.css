@@ -90,6 +90,7 @@ html h3 {
   flex-direction: column;
   width: 100%;
   justify-content: center;
+  position: relative;
 }
 
 @media (min-width: 950px) {
@@ -97,6 +98,9 @@ html h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: #a2aebb;
+    padding: 20px 0;
+    border-radius: 3px;
   }
 }
 
@@ -129,6 +133,7 @@ html h3 {
 @media (min-width: 950px) {
   .social-icons {
     width: 30%;
+    box-shadow: -4px 4px 4px #8594a5;
   }
 }
 
@@ -147,8 +152,9 @@ html h3 {
 
 @media (min-width: 950px) {
   .contact-form {
-    width: 35vw;
+    width: 100%;
     margin: 20px 0;
+    box-shadow: -4px 4px 4px #8594a5;
   }
 }
 
@@ -170,18 +176,18 @@ html h3 {
 
 @media (min-width: 950px) {
   .contact-address-phone-address h2, .contact-address-phone-address h3 {
-    font-size: 1.8rem;
     padding-left: 20px;
   }
 }
 
-.contact-address-phone-address h2 {
+.contact-address-phone-address div h2 {
   font-size: 1.9rem;
 }
 
 @media (min-width: 950px) {
-  .contact-address-phone-address h2 {
-    font-size: 2rem;
+  .contact-address-phone-address div h2 {
+    font-size: 1.8rem;
+    padding-left: 5px;
   }
 }
 
@@ -214,7 +220,8 @@ html h3 {
 
 @media (min-width: 950px) {
   .contact-information h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    padding: 0 5px;
   }
 }
 
@@ -232,14 +239,21 @@ html h3 {
 
 @media (min-width: 950px) {
   .contact-information:first-child {
-    width: 35vw;
+    width: 100%;
   }
 }
 
 @media (min-width: 950px) {
   .contact-information {
-    width: 45vw;
     margin: 20px 0;
+    box-shadow: -4px 4px 4px #8594a5;
+  }
+  .contact-information h3 {
+    font-size: 2rem;
+    color: #1c3144;
+  }
+  .contact-information a {
+    text-decoration: none;
   }
 }
 
@@ -324,11 +338,24 @@ html h3 {
 .map-div {
   width: 95%;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  perspective: 1000px;
 }
 
 .map-div img {
   width: 100%;
   border-radius: 3px;
+  margin: 5px 0;
+}
+
+@media (min-width: 950px) {
+  .map-div img {
+    width: 45%;
+    box-shadow: -20px 10px 6px #8594a5;
+    transform: rotateY(10deg);
+  }
 }
 
 #black-logo {
@@ -390,8 +417,8 @@ body {
   }
   .hamburger i {
     float: left;
-    font-size: 125px;
-    margin: 30px 40px;
+    font-size: 100px;
+    margin: 10px 40px;
     transition: 0.5s;
   }
   .hamburger i:hover {
@@ -414,8 +441,8 @@ body {
     order: 1;
   }
   #logo-div img {
-    width: 60%;
-    margin: 20px 20px;
+    width: 50%;
+    margin: 0 20px;
     float: right;
   }
 }
