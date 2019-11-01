@@ -30,6 +30,20 @@ function burger(id) {
 }
 // not entire certain how I want to handle image / word swap for mobile.
 jQuery(document).ready(function ($) {
+   //make top window for banner shrink on scroll
+    if (desktop.matches){
+        $(window).scroll(function () {
+            let scrollTop = $(window).scrollTop();
+            let titleHeight = $('.banner-title').css("height");
+            // console.log(scrollTop);
+            if (scrollTop > 150) {
+                $('.banner-title').animate({ height: '20px' }, 1000);
+                // $(window).scrollTop(50);
+                 } //else if (titleHeight == "100px") { not working.  Not sure why
+            //     console.log(titleHeight);
+            // }
+        })
+    }
     $('.services-card').click(function () {
         if (!desktop.matches) {
             const height = $(this).css('height');
@@ -56,4 +70,5 @@ jQuery(document).ready(function ($) {
         }
 
     })
+    $(".service-banner-text").fadeIn(2000);
 })

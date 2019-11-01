@@ -1,9 +1,22 @@
 <?php get_header() ?>
+<?php 
+    // require_once(plugin_dir_path(__FILE__) . '/assets/page-title-header.php');
+?>
                 <div id="sub-menu">
-                    <div><a href="#"><h2>Generator Service</h2></a></div>
-                    <div><a href="#"><h2>Alarms & Security</h2></a></div>
-                    <div><a href="#"><h2>Res & Comm Electric</h2></a></div>
+                    <div><a href="#"><h2>Generators</h2></a></div>
+                    <div><a href="#"><h2>Security</h2></a></div>
+                    <div><a href="#"><h2>Electric</h2></a></div>
                 </div>
+                <!-- <div class="landing-banner">
+                    <img class="large-photo"src="<?php// echo get_template_directory_uri();?>/images/headers/truck-1900x923.jpg" alt="JME Truck">
+                    <img class="small-photo"src="<?php// echo get_template_directory_uri();?>/images/headers/truck-sky1900x1219.jpg" alt="JME truck">
+                </div>
+                <div class="landing-banner-words">
+                    <h2>GENERATOR SERVICE - ALARMS & SECURITY - RESSIDENTIAL AND COMMERCIAL ELECTRIC</h2>
+                </div>
+                <div class="landing-spacer">
+                    
+                </div> -->
                 <section>
                     <!-- this section will be custom post -->
                     <div class="landing-section-services">
