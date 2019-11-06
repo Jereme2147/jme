@@ -10,16 +10,16 @@
 <body id="body">
     <div id="container">
             <nav>
-                <div class="hamburger" onclick="burger('menu-open')">
-                    <i class="fas fa-bars"></i>
-                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/hamburger200x180.svg" alt="menu-button"> -->
-                </div>
+                <button class="hamburger hamburger--arrowalt " type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
                 <div id="logo-div">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo500x161.png" alt="">
                 </div>
                 <div id="menu-open">
                     <div id="black-logo">
-                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/jme-bw-406x142.svg" alt=""> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo500x161.png" alt="">
                     </div>
                     <?php

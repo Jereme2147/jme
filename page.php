@@ -2,7 +2,14 @@
     get_header();
 ?>
 
-<h1> Page.php </h1>
+<section>
+    <?php 
+     while(have_posts()) {
+        the_post();
+        echo the_content();
+     }
+    ?>
+</section>
 <?php 
     get_footer();
 ?>

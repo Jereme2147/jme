@@ -9,4 +9,8 @@ html h1,
 html h3 {
   margin: 0;
 }
+
+button:focus {
+  outline: 0;
+}
 /*# sourceMappingURL=reset.css.map */
