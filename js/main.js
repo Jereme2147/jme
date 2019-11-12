@@ -12,10 +12,8 @@ jQuery(document).ready(function ($) {
             // console.log(scrollTop);
             if (scrollTop > 150) {
                 $('.banner-title').animate({ height: '20px' }, 1000);
-                // $(window).scrollTop(50);
-                 } //else if (titleHeight == "100px") { not working.  Not sure why
-            //     console.log(titleHeight);
-            // }
+                $('.service-banner-text').css({display: 'none'});
+                 } 
         })
     }
     $('.services-card').click(function () {

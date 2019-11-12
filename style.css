@@ -169,6 +169,51 @@ button:focus {
   }
 }
 
+.generic-page-title h2 {
+  margin: 5px 0 0 0;
+  color: #f9f9f9;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+@media (min-width: 950px) {
+  .generic-page-title h2 {
+    font-size: 3rem;
+  }
+}
+
+.page-div {
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  color: #1c3144;
+}
+
+.page-div p {
+  padding: 5px 5px;
+  font-family: "Martel", serif;
+}
+
+@media (min-width: 950px) {
+  .page-div p {
+    padding: 5px 30px;
+  }
+}
+
+@media (min-width: 950px) {
+  .page-div img {
+    max-width: 75%;
+    -webkit-box-shadow: 10px 10px 5px #adadad;
+            box-shadow: 10px 10px 5px #adadad;
+  }
+  .page-div figure {
+    text-align: center;
+  }
+}
+
 .page-banner {
   position: fixed;
   z-index: 0;
@@ -327,6 +372,9 @@ button:focus {
 }
 
 @media (min-width: 950px) {
+  .service-item-card {
+    width: 45%;
+  }
   .service-item-card h2 {
     font-size: 4rem;
     margin: 5px 0;
@@ -354,10 +402,12 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .banner-image {
@@ -411,7 +461,7 @@ button:focus {
 
 @media (min-width: 950px) {
   .banner-text {
-    height: 700px;
+    height: 600px;
   }
   .banner-text h1 {
     font-size: 5rem;
@@ -511,6 +561,19 @@ button:focus {
   }
 }
 
+.section-contact {
+  width: 100%;
+}
+
+@media (min-width: 950px) {
+  .section-contact {
+    background: #f9f9f9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+}
+
 .contact-social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -523,8 +586,6 @@ button:focus {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100vw;
-  -webkit-perspective: 500px;
-          perspective: 500px;
 }
 
 .contact-social img {
@@ -534,6 +595,12 @@ button:focus {
 @media (min-width: 950px) {
   .contact-social img {
     width: 75px;
+  }
+}
+
+@media (min-width: 950px) {
+  .contact-social {
+    width: 80vw;
   }
 }
 
@@ -551,11 +618,9 @@ button:focus {
 
 @media (min-width: 950px) {
   .social-icons {
-    width: 30%;
+    width: 45%;
     -webkit-box-shadow: -20px 8px 10px #1a1a1a;
             box-shadow: -20px 8px 10px #1a1a1a;
-    -webkit-transform: rotateX(20deg);
-            transform: rotateX(20deg);
   }
 }
 
@@ -578,10 +643,7 @@ button:focus {
 
 @media (min-width: 950px) {
   .contact-form {
-    width: 100%;
     margin: 20px 0;
-    -webkit-box-shadow: -8px 8px 4px #1a1a1a;
-            box-shadow: -8px 8px 4px #1a1a1a;
   }
 }
 
@@ -649,10 +711,25 @@ button:focus {
   border-radius: 3px;
 }
 
+@media (min-width: 950px) {
+  .contact-information {
+    width: 50%;
+    margin: 20px 0;
+    border-left: 3px solid #1c3144;
+  }
+  .contact-information h3 {
+    font-size: 2rem;
+    color: #1c3144;
+  }
+  .contact-information a {
+    text-decoration: none;
+  }
+}
+
 .contact-information h2 {
   font-family: "Muli", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 3px #3f88c5;
+  text-shadow: 2px 2px 3px #939393;
 }
 
 @media (min-width: 950px) {
@@ -685,21 +762,6 @@ button:focus {
   }
 }
 
-@media (min-width: 950px) {
-  .contact-information {
-    margin: 20px 0;
-    -webkit-box-shadow: -8px 8px 4px #1a1a1a;
-            box-shadow: -8px 8px 4px #1a1a1a;
-  }
-  .contact-information h3 {
-    font-size: 2rem;
-    color: #1c3144;
-  }
-  .contact-information a {
-    text-decoration: none;
-  }
-}
-
 #wpcf7-f112-p37-o1 {
   width: 95%;
   color: #1c3144;
@@ -720,23 +782,27 @@ button:focus {
 }
 
 #wpcf7-f112-p37-o1 form p:nth-child(-n+4) input, #wpcf7-f112-p37-o1 form p:nth-child(-n+4) textarea {
-  background: #e0e0e0;
+  background: #f9f9f9;
   border: none;
   width: 90%;
   height: 20px;
   border-radius: 3px;
+  border-bottom: 2px solid #a2aebb;
 }
 
 #wpcf7-f112-p37-o1 form p:nth-child(-n+4) input:focus, #wpcf7-f112-p37-o1 form p:nth-child(-n+4) textarea:focus {
-  background: #dde1e6;
-  border: none;
+  border-bottom: 4px solid #3f88c5;
+  border-top: none;
+  border-left: none;
+  border-left: none;
 }
 
 #wpcf7-f112-p37-o1 form p:nth-child(5) label span textarea {
   outline: none;
   border: none;
-  background: #e0e0e0;
+  background: #f9f9f9;
   color: #1c3144;
+  border-bottom: 2px solid #a2aebb;
   font-size: 20px;
   width: 90%;
   height: 60px;
@@ -760,6 +826,13 @@ button:focus {
   font-size: 20px;
   color: #f9f9f9;
   text-shadow: 1px 1px 1px #1c3144;
+}
+
+@media (min-width: 950px) {
+  #wpcf7-f112-p37-o1 form p:nth-child(6) input {
+    background: #3f88c5;
+    border: none;
+  }
 }
 
 #wpcf7-f112-p37-o1 form p:nth-child(6) span {

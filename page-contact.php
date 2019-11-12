@@ -32,14 +32,12 @@
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="section-contact">
                     <div class="contact-form">
                          <?php
                             the_content();
                         ?>
                     </div>
-                </section>
-                <section>
                     <div class="contact-information">
                         <div>
                             <h2>Jared Munday Electric, inc.</h2>
@@ -59,6 +57,27 @@
                             <a href="#"><h3>jaredmundayelectric@gmail.com</h3></a>
                         </div>
                     </div>
+                </section>
+                <section>
+                    <!-- <div class="contact-information">
+                        <div>
+                            <h2>Jared Munday Electric, inc.</h2>
+                            <h2>828-355-9024</h2>
+                            <div class="contact-address-phone">
+                                <div class="contact-address-phone-address">
+                                    
+                                    <h3>PO Box 2077</h3>
+                                    <h3>Boone, NC 28607</h3>
+                                </div>
+                                <div class="contact-address-phone-icon">
+                                    <a href="#"><img src="<?php //echo get_template_directory_uri(); ?>/images/social/phone.svg" alt=""></a>
+                                </div>
+
+                            </div>
+                            
+                            <a href="#"><h3>jaredmundayelectric@gmail.com</h3></a>
+                        </div>
+                    </div> -->
                 </section>
                 <section>
                     <div class="map-div">
