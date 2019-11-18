@@ -13,14 +13,12 @@
         <div class="post-banner-text">
              <h1><?php echo the_title() ?></h1>
         </div>
-        <article class="blog-single-article">
-    
-        <div class="single-post-content">
-            <?php
-                the_content();
-            ?>
-        </div>
-        
+        <article class="custom-single-article">
+            <div class="custom-post-content">
+                <?php
+                    the_content();
+                ?>
+            </div>
         </article>
                          
     <?php }

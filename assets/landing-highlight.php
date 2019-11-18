@@ -22,9 +22,9 @@
                     if ($landingPostCount % 2) {
                         echo $landingWordsOdd;
                     }
-                ?>">
+                    ?>">
                     <h1><?php echo the_title() ?></h1>
-                    <p><?php echo the_excerpt() ?></p>
+                    <?php echo the_excerpt() ?>
                     <a href="<?php echo the_permalink();?>"><h2>Read More</h2></a>
                 </div>
             </div>

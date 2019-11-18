@@ -1,8 +1,8 @@
 <?php get_header() ?>
                 <div id="sub-menu">
-                    <div><a href="#"><h2>Generators</h2></a></div>
-                    <div><a href="#"><h2>Security</h2></a></div>
-                    <div><a href="#"><h2>Electric</h2></a></div>
+                     <?php
+                        require_once(plugin_dir_path(__FILE__) . '/assets/landing-sub-menu.php');
+                    ?>
                 </div>
                 <section>
                     <!-- Highlight services X 3 or however many are chosen -->
