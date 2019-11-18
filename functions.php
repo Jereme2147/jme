@@ -65,7 +65,7 @@ function jme_custom_post_type() {
         array(
         'rewrite' => array('slug' => 'landing-items'),
         'labels' => array(
-            'name' => 'Landing-Items', 
+            'name' => 'Landing-Items',
             'singular_name' => 'landing',
             'add_new_item' => 'Add Landing Item',
             'edit_item' => 'Edit landing-item'
