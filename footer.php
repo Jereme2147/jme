@@ -5,16 +5,16 @@
                         <h2>-828-355-9024-</h2>
                     </div>
                     <div class="footer-service">
-                        <a href="#">Click here to schedule service</a>
+                        <a href="<?php echo get_template_directory_uri(); ?>/contact">Click here to schedule service</a>
                     </div>
                 </div>
                 <div class="footer-links-social-container">
                     <div class="footer-links">
                         <ul>
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>Services</li></a>
-                            <a href="#"><li>Vendors</li></a>
-                            <a href="#"><li>Contact</li></a>
+                            <a href="<?php echo get_template_directory_uri(); ?>/about"><li>About</li></a>
+                            <a href="<?php echo get_template_directory_uri(); ?>/services"><li>Services</li></a>
+                            <a href="<?php echo get_template_directory_uri(); ?>/our-vendors"><li>Vendors</li></a>
+                            <a href="<?php echo get_template_directory_uri(); ?>/contact"><li>Contact</li></a>
                         </ul>
                     </div>
                     <div class="footer-social">

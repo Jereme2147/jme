@@ -7,14 +7,22 @@
     <article>
         <a href="<?php echo the_permalink() ?>">
         <div class="landing-current-blog">
-            <h3><?php echo get_the_date();?></h3>
-            <h3>Posted by <?php echo get_the_author();?></h3>
+            <h6><?php echo get_the_date();?></h6>
+            <h5>Posted by <?php echo get_the_author();?></h5>
             <h3><?php echo the_title();?></h3>
         </div>
         </a>
-        <p><?php
-            echo the_content();
-         ?></p>
+        <div>
+            <p><?php
+                echo wp_trim_words(get_the_excerpt(), 40);
+            ?></p>
+            <div class="landing-blog-button">
+                <a href="<?php echo the_permalink() ?>">
+                    <h4>READ MORE</h4>
+                </a>
+            </div>
+        </div>
+        
     </article>
     <div class="previous-blogs-container">
     <?php

@@ -15,9 +15,13 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
+                <div class="top-phone-number">
+                        <h3>(828) 355-9024</h3>
+                </div>
                 <div id="logo-div">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo500x161.png" alt="">
                 </div>
+
                 <div id="menu-open">
                     <div id="black-logo">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo500x161.png" alt="">

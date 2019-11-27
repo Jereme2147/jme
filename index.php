@@ -4,6 +4,11 @@
                         require_once(plugin_dir_path(__FILE__) . '/assets/landing-sub-menu.php');
                     ?>
                 </div>
+                <section  class="landing-blog-highlight">
+                <?php 
+                    require_once(plugin_dir_path(__FILE__) . '/assets/blog.php');
+                ?>
+            </section>
                 <section>
                     <!-- Highlight services X 3 or however many are chosen -->
                     <?php
@@ -20,11 +25,7 @@
                     ?>
                 </section>
                <!-- Blog section -->
-            <section  class="landing-blog-highlight">
-             <?php 
-                require_once(plugin_dir_path(__FILE__) . '/assets/blog.php');
-            ?>
-            </section>
+            
                 <section>
                     <div class="landing-vendors-section">
                         <div class="landing-vendors-title">
