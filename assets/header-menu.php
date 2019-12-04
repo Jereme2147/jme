@@ -11,6 +11,6 @@
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt="social icon"></a>
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt="social icon"></a>
         </li>
-        <li onclick="burger()">Close</li>
+        <li onclick="burger()">Close Menu</li>
     </ul>
 </div>
