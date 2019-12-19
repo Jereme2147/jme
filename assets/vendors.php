@@ -7,7 +7,7 @@
  )); 
                             ?>
 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-    <a href="<?php echo the_permalink();?>" class="vendor-scroll"><img src="<?php echo the_post_thumbnail_url();?>"" alt="vendor logo"></a>
+    <a href="<?php echo get_home_url()?>/our-vendors" class="vendor-scroll"><img src="<?php echo the_post_thumbnail_url();?>"" alt="vendor logo"></a>
 <?php
 endwhile;
 ?>
