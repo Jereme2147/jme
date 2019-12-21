@@ -1664,21 +1664,21 @@ footer {
   margin-bottom: 10px;
   border: 1px solid #1c3144;
   box-shadow: 2px 2px #1c3144;
-  background-color: #66a0d1;
+  background-color: #ffba08;
   transition: 0.5s;
 }
 
 .footer-service:hover {
   cursor: pointer;
-  background-color: #ffba08;
+  background-color: #a17400;
 }
 
 .footer-service a {
   text-decoration: none;
-  color: #f9f9f9;
+  color: #1c3144;
   font-family: "Muli", sans-serif;
   font-size: 20px;
-  text-shadow: 1px 1px #1c3144;
+  text-shadow: 1px 1px #f9f9f9;
 }
 
 @media (min-width: 950px) {
@@ -1692,6 +1692,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-links ul {
@@ -1705,7 +1706,7 @@ footer {
   color: #f9f9f9;
   text-shadow: 1px 1px #1c3144;
   font-family: "Muli", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   padding: 3px;
 }
 
@@ -1766,5 +1767,7 @@ footer {
 .footer-developer a {
   padding: 5px;
   text-decoration: none;
-  color: #1c3144;
+  color: white;
+  text-shadow: 1px 1px #1c3144;
+  font-size: 2rem;
 }

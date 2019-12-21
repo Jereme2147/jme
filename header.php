@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php wp_head(); ?>
-    <title>Document</title>
+    <!-- <title>Document</title> -->
+    <meta name="description" content="Electrician | Licensed | Insured | Experienced | Guaranteed">
 </head>
 <body id="body">
     <div id="container">
             <nav>
-                <button class="hamburger hamburger--arrowalt " type="button">
+                <button class="hamburger hamburger--arrowalt " type="button" aria-label="menu toggle">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
