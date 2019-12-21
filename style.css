@@ -216,9 +216,10 @@ button:focus {
   width: 100%;
 }
 
-.landing-blog-highlight article h3 {
+.landing-blog-highlight article h2 {
   font-size: 2rem;
   font-family: "Muli", sans-serif;
+  margin: 5px 0;
   color: #1c3144;
 }
 

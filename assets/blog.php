@@ -9,7 +9,7 @@
         <div class="landing-current-blog">
             <h6><?php echo get_the_date();?></h6>
             <h5>Posted by <?php echo get_the_author();?></h5>
-            <h3><?php echo the_title();?></h3>
+            <h2><?php echo the_title();?></h2>
         </div>
         </a>
         <div>
@@ -31,7 +31,7 @@
             ?>
             <a href="<?php echo the_permalink() ?>">
                <div class="previous-blogs">
-                   <h4><?php echo the_title() ?></h4>
+                   <h2><?php echo the_title() ?></h2>
                </div>
             </a>
             
