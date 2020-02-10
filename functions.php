@@ -73,6 +73,7 @@ function jme_custom_post_type() {
         'menu-icon' => 'dashicons-clipboard',
         'public' => true,
         'has_archive' => true,
+        'show_in_rest' => true,
         'supports' => array(
             'title', 'thumbnail', 'editor', 'excerpt', 'comments', 'custom-fields'
         ),

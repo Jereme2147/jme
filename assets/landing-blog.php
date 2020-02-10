@@ -8,7 +8,6 @@
         <a href="<?php echo the_permalink() ?>">
         <div class="landing-current-blog">
             <h6><?php echo get_the_date();?></h6>
-            <h5>Posted by <?php echo get_the_author();?></h5>
             <h2><?php echo the_title();?></h2>
         </div>
         </a>
@@ -21,13 +20,13 @@
                     <h4>READ MORE</h4>
                 </a>
             </div>
-        </div>
+        </div> 
         
     </article>
     <div class="previous-blogs-container">
     <?php
     $postCounter = $postCounter + 1;
-    } else {
+    } else if($postCounter < 3){
             ?>
             <a href="<?php echo the_permalink() ?>">
                <div class="previous-blogs">
@@ -37,13 +36,18 @@
             
             <?php
             $postCounter = $postCounter + 1;
+    }else {
+            ?>
+            <a href="<?php echo get_home_url()?>/blog">
+               <h2>More Posts</h2>
+            </a>
+            
+            <?php
+            break;
     }
     
 }
     ?>   
     </div>     
-    <div class="pagination">
-        <?php echo paginate_links(); ?>
-    </div>
 
         

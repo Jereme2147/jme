@@ -53,10 +53,10 @@ function burger() {
     jQuery(".hamburger").toggleClass("is-active");
     const opacity = jQuery("#menu-open").css('opacity');
     if (opacity == '0') {
-        jQuery('#menu-open').animate({ opacity: '1' }, 500);
+        jQuery('#menu-open').animate({ opacity: '1' }, 200);
         jQuery('#menu-open').css({ pointerEvents: 'auto' });
     } else {
-        jQuery('#menu-open').animate({ opacity: '' }, 500);
+        jQuery('#menu-open').animate({ opacity: '' }, 200);
         jQuery('#menu-open').css({ pointerEvents: 'none' });
     }
 }
