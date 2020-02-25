@@ -1,9 +1,18 @@
 <?php get_header() ?>
-     <div id="sub-menu">
-          <?php
-             require_once(plugin_dir_path(__FILE__) . '/assets/landing-sub-menu.php');
+    <section>
+         <div class="services-title">
+             <h2>-SERVICES-</h2>
+         </div>
+        <!-- *****All services loaded from parent of "services"  -->
+         <?php 
+             require_once(plugin_dir_path(__FILE__) . '/assets/services.php');
          ?>
-     </div>
+     </section>
+     <!-- <div id="sub-menu">
+          <?php
+            //  require_once(plugin_dir_path(__FILE__) . '/assets/landing-sub-menu.php');
+         ?>
+     </div> -->
           <section  class="landing-blog-highlight">
      <?php 
          require_once(plugin_dir_path(__FILE__) . '/assets/landing-blog.php');
@@ -15,15 +24,7 @@
              require_once(plugin_dir_path(__FILE__) . '/assets/landing-highlight.php');
          ?>
      </section>
-     <section>
-         <div class="services-title">
-             <h2>-SERVICES-</h2>
-         </div>
-        <!-- *****All services loaded from parent of "services"  -->
-         <?php 
-             require_once(plugin_dir_path(__FILE__) . '/assets/services.php');
-         ?>
-     </section>
+    
 
 
      

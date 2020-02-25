@@ -1496,7 +1496,7 @@ section {
 
 .services-card img {
   width: 100%;
-  align-self: center;
+  align-self: flex-start;
 }
 
 .services-card:hover {

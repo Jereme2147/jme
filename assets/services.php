@@ -5,6 +5,7 @@
     foreach ($pages as $page) {
         $parent_title = get_the_title( $page->post_parent );
         $image = get_the_post_thumbnail_url($page->ID);
+        $excerpt = get_the_excerpt($page->ID);
         if($parent_title == 'Services'){
              ?>
             <div class="services-card services-card-not-selected">
@@ -13,7 +14,7 @@
                     <h2><?php echo $page->post_title?></h2>
                 </div>
                 <div class="service-description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus minima sapiente exercitationem odio, possimus asperiores, illo tempora aliquam nemo maxime veritatis blanditiis illum voluptate culpa perferendis, itaque aspernatur voluptatum.</p>
+                    <p><?php echo $excerpt ?></p>
                     <a href="<?php echo the_permalink($page->ID); ?>" target="_blank">READ MORE</a>
                 </div>
             </div>
