@@ -1452,6 +1452,7 @@ section {
 }
 
 .services-title {
+  position: relative;
   width: 100%;
   background: #f2f2f2;
   margin-top: 10px;
@@ -1820,4 +1821,60 @@ footer {
   max-width: 900px;
   margin: 25px;
   text-align: center;
+}
+
+.landing-page-spacer {
+  height: 100px;
+}
+
+@media (min-width: 950px) {
+  .landing-page-spacer {
+    height: 45vh;
+  }
+}
+
+.landing-banner-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.landing-banner-image img {
+  width: 100%;
+}
+
+@media (min-width: 950px) {
+  .landing-banner-image {
+    top: auto;
+    bottom: 35vh;
+  }
+}
+
+.landing-large-photo {
+  display: none;
+}
+
+@media (min-width: 950px) {
+  .landing-large-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+  }
+}
+
+.landing-small-photo {
+  display: block;
+  width: 100%;
+  margin: 5px 0 0 0;
+  border-radius: 5px;
+}
+
+@media (min-width: 950px) {
+  .landing-small-photo {
+    display: none;
+  }
 }

@@ -1,4 +1,15 @@
 <?php get_header() ?>
+    <!-- <div class="landing-banner-image">
+        <img class="large-photo"src="<?php// echo get_template_directory_uri();?>/images/headers/landingtruck2-1900x761.jpg" alt="banner with JME truck">
+        <img class="small-photo"src="<?php// echo get_template_directory_uri();?>/images/headers/landing-truck-900x558.jpg" alt="banner with JME truck">
+    </div> -->
+    <!-- <div style="height: 25vh"></div> -->
+    <!-- <div class="landing-page-spacer"></div> -->
+    <div>
+        <img class="landing-large-photo"src="<?php echo get_template_directory_uri();?>/images/headers/landingtruck2-1900x761.jpg" alt="banner with JME truck">
+        <img class="landing-small-photo"src="<?php echo get_template_directory_uri();?>/images/headers/landing-truck-900x558.jpg" alt="banner with JME truck">
+    </div>
+
     <section>
          <div class="services-title">
              <h2>-SERVICES-</h2>
@@ -13,7 +24,7 @@
             //  require_once(plugin_dir_path(__FILE__) . '/assets/landing-sub-menu.php');
          ?>
      </div> -->
-          <section  class="landing-blog-highlight">
+    <section  class="landing-blog-highlight">
      <?php 
          require_once(plugin_dir_path(__FILE__) . '/assets/landing-blog.php');
      ?>

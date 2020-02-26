@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
         if (!desktop.matches) {
             const height = $(this).css('height');
             if (height == '75px') {
-                $(this).animate({ height: '550px' }, 500);
+                $(this).animate({ height: '730px' }, 500);
                 $(this).removeClass("services-card-not-selected"); //only way to effectivly change opacity
                 $(this).addClass("services-card-selected");
             } else {
@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
         } else {
             const height = $(this).css('height');
             if (height == '100px') {
-                $(this).animate({ height: '680px' }, 500);
+                $(this).animate({ height: '830px' }, 500);
                 $(this).removeClass("services-card-not-selected");
                 $(this).addClass("services-card-selected");
             } else {

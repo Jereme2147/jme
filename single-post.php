@@ -18,10 +18,10 @@
             <h2 class="single-post-title">
                 <?php echo the_title() ?>
             </h2>
-            <h3 class="single-post-author">
+            <!-- <h3 class="single-post-author">
                 Posted By: 
-                <?php echo get_the_author() ?>
-            </h3>
+                <?php //echo get_the_author() ?>
+            </h3> -->
             <h4 class="single-post-date">
                 On: 
                 <?php echo get_the_date() ?>

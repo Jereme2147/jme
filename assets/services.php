@@ -1,7 +1,7 @@
 <!-- This page is to dynamically load all services for the services section of landing page. -->
 
 <?php //$output = wp_list_pages( array( 'title' => '' ) ); 
-    $pages = get_pages();
+    $pages = get_pages( $args = array('sort_column' => 'menu_order') );
     foreach ($pages as $page) {
         $parent_title = get_the_title( $page->post_parent );
         $image = get_the_post_thumbnail_url($page->ID);
