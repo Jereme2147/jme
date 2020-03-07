@@ -18,11 +18,11 @@
                         </ul>
                     </div>
                     <div class="footer-social">
-                        <a href="#"rel="noreferrer noopener"aria-label="facebook link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.svg" alt=""> </a>
-                        <a href="#"rel="noreferrer noopener"aria-label="instagram link" ><img src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.svg" alt=""></a>
-                        <a href="#"rel="noreferrer noopener"aria-label="linkedin link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.svg" alt=""></a>
-                        <a href="#"rel="noreferrer noopener"aria-label="email link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt=""></a>
-                        <a href="#"rel="noreferrer noopener"aria-label="direct dial link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt=""></a>
+                        <a href="https://www.facebook.com/mundayelectric/"rel="noreferrer noopener"aria-label="facebook link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.svg" alt=""> </a>
+                        <a href="https://www.instagram.com/jaredmundayelectric/"rel="noreferrer noopener"aria-label="instagram link" ><img src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.svg" alt=""></a>
+                        <!-- <a href="#"rel="noreferrer noopener"aria-label="linkedin link"><img src="<?php //echo get_template_directory_uri(); ?>/images/social/linkedin.svg" alt=""></a> -->
+                        <a href="mailto:jaredmundayelectric@gmail.com"rel="noreferrer noopener"aria-label="email link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt=""></a>
+                        <a href="tel:123-456-7890"rel="noreferrer noopener"aria-label="direct dial link"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="footer-developer">

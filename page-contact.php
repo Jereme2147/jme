@@ -23,12 +23,12 @@
                 <section>
                     <div class="contact-social">
                         <div class="social-icons">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.svg" alt=""> </a>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.svg" alt=""></a>
+                            <a href="https://www.facebook.com/mundayelectric/"><img src="<?php echo get_template_directory_uri(); ?>/images/social/facebook.svg" alt=""> </a>
+                            <a href="https://www.instagram.com/jaredmundayelectric/"><img src="<?php echo get_template_directory_uri(); ?>/images/social/instagram.svg" alt=""></a>
                         </div>
                         <div class="social-icons">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.svg" alt=""></a>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt=""></a>
+                            <a href="tel:123-456-7890"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt="social icon"></a>
+                            <a href="mailto:jaredmundayelectric@gmail.com"><img src="<?php echo get_template_directory_uri(); ?>/images/social/mail.svg" alt=""></a>
                         </div>
                     </div>
                 </section>
@@ -49,7 +49,7 @@
                                     <h3>Boone, NC 28607</h3>
                                 </div>
                                 <div class="contact-address-phone-icon">
-                                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt=""></a>
+                                    <a href="tel:123-456-7890"><img src="<?php echo get_template_directory_uri(); ?>/images/social/phone.svg" alt="direct call link"></a>
                                 </div>
 
                             </div>
@@ -81,8 +81,8 @@
                 </section>
                 <section>
                     <div class="map-div">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/best-of-best.jpg" alt="">    
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/pin.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/best-of-best.jpg" alt="award">    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/pin.jpg" alt="location map">
                     </div>
                 </section>
             </div>
